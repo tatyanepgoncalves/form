@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+    
+    <div class="card" id="card">
+        <div class="texto">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly <br> updates on:</p>
+          <ul>
+            <li>
+                <img src="images/icon-success.svg" alt="">
+                Product discovery and building what matters
+            </li>
+      
+            <li>
+                <img src="images/icon-success.svg" alt="">
+                Meausuring to ensure updates are a sucess
+            </li>
+      
+            <li>
+                <img src="images/icon-success.svg" alt="">
+                And much more!
+            </li>
+          </ul>
+      
+          <form id="form">
+            <div class="top">
+              <label for="input-email">Email address </label>
+              <span id="erro-warm">Valid email required</span>
+            </div>
+            
+            <input type="Email" name="Email" id="input-email" placeholder="email@company.com" required>
+            <button id="btn-subs" onclick="showModal()">Subscribe to monthly newsletter</button>
+          </form>
+      
+        </div>
+      
+        <div class="img">
+          <img src="images/illustration-sign-up-desktop.svg" alt="">
+        </div>
+      </div>
+      
+      <div class="card-modal" id="card-modal">
+        <img src="images/icon-success.svg" alt="">
+        <h1>Thanks for subscribing</h1>
+        <p>A confirmation email has been sent to <span>ash@loremcomapany.com</span>. Please open it and click the button inside to confirm your subscription.</p>
+        <button id="dimiss-btn" onclick="hiddenModal">Dismiss message</button>
+      </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

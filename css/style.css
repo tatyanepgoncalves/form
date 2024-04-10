@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+body{
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.card{
+    background-color: #fff;
+    padding: 10px 0;
+    padding-left: 40px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 500px;
+    width: 800px;
+}
+
+.card h1{
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 30px;
+}
+
+.card p{
+    color: hsl(235, 18%, 26%);
+    margin-bottom: 30px;
+}
+
+.card ul {
+    margin-bottom: 30px;
+}
+
+.card ul li {
+    color: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    
+}
+
+.card ul li img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.top label{
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+.top span{
+    color: hsl(4, 100%, 67%);
+    font-weight: 500;
+    display: none;
+}
+
+#input-email{
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 5px;
+}
+
+#btn-subs{
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    background-color: hsl(235, 18%, 26%);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+ 
+}
+
+#btn-subs:hover{
+    box-shadow: 0 10px 25px hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 67%);
+}
+
+.img img{
+    width: 300px;
+}
+
+.card-modal{
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.card-modal img{
+    width: 50px;
+    margin-bottom: 25px;
+}
+
+.card-modal h1{
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: hsl(234, 29%, 20%);
+}
+
+.card-modal p{
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-modal p span{
+    font-weight: 700;
+}
+
+.card-modal button {
+    background-color: hsl(234, 29%, 20%);
+    height: 40px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.card-modal button:hover{
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0 10px 25px hsl(4, 100%, 67%);
+}
